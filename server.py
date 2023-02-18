@@ -37,7 +37,7 @@ def handle_messages(client):
         except:
             disconnected_client(client)
             break
-
+#funcion que recibe las conexiones
 
 def receive_connections():
     while True:
